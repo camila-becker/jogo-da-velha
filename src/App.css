@@ -1,22 +1,25 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
-  height: 40vmin;
+  width: 131px;
+  height: 21px;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #eeeeee;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  padding: 20px 35px 0;
 }
 
 .App-link {
   color: #09d3ac;
+}
+
+.App-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #707070;
+  text-transform: uppercase;
+  margin: 0;
 }
