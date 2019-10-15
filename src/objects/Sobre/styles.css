@@ -1,0 +1,7 @@
+.sobre {
+  font-size: var(--size-very-small);
+  font-weight: bold;
+  color: var(--color-first);
+  text-transform: uppercase;
+  text-decoration: none;
+}
