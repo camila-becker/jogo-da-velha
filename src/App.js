@@ -6,7 +6,7 @@ function App() {
   return (
     <header className="App-header">
       <img src={logo} className="App-logo" alt="logo" />
-      <a href="#" className="App-link">Sobre</a>
+      <a href="#sobre" className="App-link">Sobre</a>
     </header>
   );
 }
