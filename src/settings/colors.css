@@ -1,0 +1,9 @@
+:root {
+  --color-negative: #3a4042;
+  --color-zero: #fff;
+  --color-first: #707070;
+  --color-first-light: rgba(112, 112, 112, 0.5);
+  --color-second: #e5e5e5;
+  --color-third: #eeeeee;
+  --color-fourth: #eff25a;
+}

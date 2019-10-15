@@ -4,17 +4,17 @@
 }
 
 .App-header {
-  background-color: #eeeeee;
+  background-color: var(--color-third);
   min-height: 100vh;
   display: flex;
   justify-content: space-between;
-  padding: 20px 35px 0;
+  padding: var(--spacing-small) var(--spacing-medium) 0;
 }
 
 .App-link {
-  font-size: 14px;
+  font-size: var(--size-very-small);
   font-weight: bold;
-  color: #707070;
+  color: var(--color-first);
   text-transform: uppercase;
   text-decoration: none;
 }
