@@ -3,14 +3,14 @@ import './styles.css';
 import playerX from '../../img/playerX.svg';
 import playerO from '../../img/playerO.svg';
 
-const Player = (props) => {
+const Player = ({player}) => {
   const players = [];
   players['x'] = playerX;
   players['o'] = playerO;
 
   return (
     <button className="player">
-      <img src={players[props.player]} alt={`Player ${props.player}`}/>
+      <img src={players[player]} alt={`Player ${player}`}/>
     </button>
   );
 };

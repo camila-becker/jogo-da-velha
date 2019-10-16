@@ -2,8 +2,10 @@ import React from 'react';
 import './styles.css';
 
 
-const Board = () => (
-  <div className="board"></div>
+const Board = ({children}) => (
+  <div className="board">
+    {children}
+  </div>
 );
 
 export default Board;
