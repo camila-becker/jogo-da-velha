@@ -7,7 +7,7 @@ function App() {
     <>
       <Header />
       <Board />
-      <Player />
+      <Player player="x" />
     </>
   );
 }
