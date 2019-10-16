@@ -2,6 +2,8 @@
   --spacing-very-small: 10px;
   --spacing-small: 20px;
   --spacing-medium: 34px;
-  --spacing-big: 80px;
+  --spacing-big: 85px;
   --spacing-very-big: 145px;
+
+  --spacing-radius-small: 5px;
 }

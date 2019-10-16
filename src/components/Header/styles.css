@@ -2,7 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: var(--spacing-small) var(--spacing-medium);
+  padding-top: var(--spacing-small);
+  padding-bottom: var(--spacing-small);
 }
 
 .header > .sobre {
