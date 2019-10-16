@@ -1,7 +1,4 @@
-.player-x,
-.player-o {
-  width: 42px;
-  height: 42px;
+.player {
+  background: none;
   border: none;
-  background-color: var(--color-zero);
 }
