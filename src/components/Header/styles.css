@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-small) var(--spacing-medium);
+}
+
+.header > .sobre {
+  margin-left: auto;
+  margin-right: var(--spacing-very-small);
+}
+
+.header > .menu {
+  width: 25px;
+}
