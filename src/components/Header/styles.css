@@ -6,7 +6,7 @@
   padding-bottom: var(--spacing-small);
 }
 
-.header > .sobre {
+.header > .about-link {
   margin-left: auto;
   margin-right: var(--spacing-very-small);
 }

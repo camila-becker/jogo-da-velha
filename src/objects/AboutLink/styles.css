@@ -5,3 +5,7 @@
   text-transform: uppercase;
   text-decoration: none;
 }
+
+.-light {
+  color: var(--color-zero);
+}
