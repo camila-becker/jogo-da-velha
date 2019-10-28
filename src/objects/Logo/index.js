@@ -1,8 +1,8 @@
-import React from 'react';
-import logoCollabCode from '../../img/logo.svg';
+import React from "react";
+import logoCollabCode from "../../img/logo.svg";
 
 const Logo = () => (
-  <img src={logoCollabCode} alt="Logo CollabCode" className="logo"/>
+  <img src={logoCollabCode} alt="Logo CollabCode" className="logo" />
 );
 
 export default Logo;

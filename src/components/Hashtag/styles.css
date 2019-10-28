@@ -41,12 +41,6 @@
 }
 
 .hashtag > .item:nth-child(2)::before,
-.hashtag > .item:nth-child(2)::after {
-  border-top-left-radius: 2px;
-  border-top-right-radius: 2px;
-}
-
-.hashtag > .item:nth-child(2)::before,
 .hashtag > .item:nth-child(2)::after,
 .hashtag > .item:nth-child(8)::before,
 .hashtag > .item:nth-child(8)::after {
@@ -60,6 +54,12 @@
 .hashtag > .item:nth-child(6)::after {
   width: 100%;
   height: 4px;
+}
+
+.hashtag > .item:nth-child(2)::before,
+.hashtag > .item:nth-child(2)::after {
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
 }
 
 .hashtag > .item:nth-child(4)::before,
