@@ -2,13 +2,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: var(--spacing-small);
-  padding-bottom: var(--spacing-small);
+  padding-top: var(--spacing-medium);
+  padding-bottom: var(--spacing-medium);
 }
 
 .header > .about-link {
   margin-left: auto;
-  margin-right: var(--spacing-very-small);
+  margin-right: var(--spacing-small);
 }
 
 .header > .menu {

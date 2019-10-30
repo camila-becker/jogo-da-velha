@@ -1,9 +1,8 @@
 :root {
-  --spacing-very-small: 10px;
-  --spacing-small: 20px;
-  --spacing-medium: 34px;
-  --spacing-big: 85px;
-  --spacing-very-big: 145px;
+  --spacing-small: 10px;
+  --spacing-medium: 20px;
+  --spacing-big: 35px;
+  --spacing-very-big: 90px;
 
   --spacing-radius-small: 5px;
 }

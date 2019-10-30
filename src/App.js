@@ -2,12 +2,11 @@ import React from "react";
 import "./App.css";
 
 import About from "./objects/About";
-import LogoCollab from "./objects/LogoCollab";
-import AboutLink from "./objects/AboutLink";
-import IconClose from "./objects/IconClose";
 import Checkbox from "./objects/Checkbox";
 import Header from "./components/Header";
 import Hashtag from "./components/Hashtag";
+import HeaderInternal from "./components/HeaderInternal";
+import ProfileUser from "./components/ProfileUser";
 
 const App = () => (
   <main className="app">
@@ -20,9 +19,8 @@ const App = () => (
       content="Mostrar Eventos"
     />
     <About>
-      <LogoCollab light />
-      <AboutLink className="-light" />
-      <IconClose />
+      <HeaderInternal />
+      <ProfileUser />
     </About>
   </main>
 );
