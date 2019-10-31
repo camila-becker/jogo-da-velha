@@ -1,6 +1,8 @@
 import React from "react";
 import "./styles.css";
 
-const About = ({ children }) => <section className="about">{children}</section>;
+const About = ({ children, className = "" }) => (
+  <section className={`about ${className}`}>{children}</section>
+);
 
 export default About;

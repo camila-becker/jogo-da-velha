@@ -5,11 +5,11 @@ import LogoCollab from "../../objects/LogoCollab";
 import AboutLink from "../../objects/AboutLink";
 import Menu from "../../objects/Menu";
 
-const Header = () => (
+const Header = ({ onClick }) => (
   <header className="header">
     <LogoCollab />
-    <AboutLink />
-    <Menu />
+    <AboutLink onClick={onClick} />
+    <Menu onClick={onClick} />
   </header>
 );
 

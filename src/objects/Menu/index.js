@@ -1,18 +1,10 @@
-import React, { Component } from "react";
+import React from "react";
 import "./styles.css";
 
-class Menu extends Component {
-  handleClick = () => {
-    console.log("Botão clicado");
-  };
-
-  render() {
-    return (
-      <a href="#menu" className="menu" onClick={this.handleClick}>
-        <span className="center">Menu</span>
-      </a>
-    );
-  }
-}
+const Menu = ({ onClick }) => (
+  <a href="#menu" className="menu" onClick={onClick}>
+    <span className="center">Menu</span>
+  </a>
+);
 
 export default Menu;

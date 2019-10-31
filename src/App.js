@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 
 import About from "./objects/About";
@@ -8,21 +8,29 @@ import Hashtag from "./components/Hashtag";
 import HeaderInternal from "./components/HeaderInternal";
 import ProfileUser from "./components/ProfileUser";
 
-const App = () => (
-  <main className="app">
-    <Header />
-    <Hashtag />
-    <Checkbox
-      type="checkbox"
-      id="show"
-      value="show"
-      content="Mostrar Eventos"
-    />
-    <About>
-      <HeaderInternal />
-      <ProfileUser />
-    </About>
-  </main>
-);
+const App = () => {
+  const [activeAbout, setActiveAbout] = useState("");
+
+  const handleClickAdd = () => setActiveAbout("-active");
+
+  const handleClickRemove = () => setActiveAbout("");
+
+  return (
+    <main className="app">
+      <Header onClick={handleClickAdd} />
+      <Hashtag />
+      <Checkbox
+        type="checkbox"
+        id="show"
+        value="show"
+        content="Mostrar Eventos"
+      />
+      <About className={activeAbout}>
+        <HeaderInternal onClick={handleClickRemove} />
+        <ProfileUser />
+      </About>
+    </main>
+  );
+};
 
 export default App;
