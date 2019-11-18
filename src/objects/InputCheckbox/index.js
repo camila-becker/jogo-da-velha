@@ -4,14 +4,10 @@ import "./styles.css";
 import LabelGame from "../LabelGame";
 import InputGame from "../InputGame";
 
-const handleClick = () => {
-  console.log("clicado");
-};
-
-const InputCheckbox = ({ id = "", value = "", content = "" }) => (
+const InputCheckbox = ({ id = "", value = "", content = "", onClick }) => (
   <>
     <InputGame type="checkbox" id={id} value={value} content={content} />
-    <LabelGame onClick={handleClick} htmlFor={id} content={content} />
+    <LabelGame onClick={onClick} htmlFor={id} content={content} />
   </>
 );
 
