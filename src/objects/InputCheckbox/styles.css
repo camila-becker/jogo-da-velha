@@ -1,13 +1,13 @@
-.main-input {
+.input-game {
   display: none;
 }
 
-.main-label {
+.label-game {
   display: inline-flex;
   align-items: center;
 }
 
-.main-label::before {
+.label-game::before {
   content: "";
   border: 3px solid var(--color-first);
   border-radius: 5px;
@@ -19,6 +19,6 @@
   margin-right: 5px;
 }
 
-.main-input:checked + .main-label::before {
+.input-game:checked + .label-game::before {
   background-color: var(--color-first);
 }

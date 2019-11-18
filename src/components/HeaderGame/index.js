@@ -3,14 +3,14 @@ import "./styles.css";
 
 import LogoCollab from "../../objects/LogoCollab";
 import AboutLink from "../../objects/AboutLink";
-import MainMenu from "../../objects/MainMenu";
+import MenuGame from "../../objects/MenuGame";
 
-const MainHeader = ({ onClick }) => (
-  <header className="main-header">
+const HeaderGame = ({ onClick }) => (
+  <header className="header-game">
     <LogoCollab />
     <AboutLink onClick={onClick} />
-    <MainMenu onClick={onClick} />
+    <MenuGame onClick={onClick} />
   </header>
 );
 
-export default MainHeader;
+export default HeaderGame;

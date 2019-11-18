@@ -1,4 +1,4 @@
-.main-header {
+.header-game {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -6,11 +6,11 @@
   padding-bottom: var(--spacing-medium);
 }
 
-.main-header > .about-link {
+.header-game > .about-link {
   margin-left: auto;
   margin-right: var(--spacing-small);
 }
 
-.main-header > .main-menu {
+.header-game > .menu-game {
   width: 25px;
 }

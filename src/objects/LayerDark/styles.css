@@ -1,4 +1,4 @@
-.about-section {
+.layer-dark {
   background-color: var(--color-negative);
   width: 100vw;
   height: 100vh;
@@ -10,10 +10,10 @@
   transition: transform 200ms linear;
 }
 
-.about-section.-active {
+.layer-dark.-active {
   transform: translateX(0);
 }
 
-.about-section > .header-internal {
+.layer-dark > .header-internal {
   margin-bottom: var(--spacing-very-big);
 }
