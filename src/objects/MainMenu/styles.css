@@ -1,11 +1,11 @@
-.menu {
+.main-menu {
   display: block;
   text-indent: -9999px;
 }
 
-.menu::after,
-.menu::before,
-.menu > .center {
+.main-menu::after,
+.main-menu::before,
+.main-menu > .center {
   background-color: var(--color-first);
   content: "";
   width: 100%;
@@ -14,7 +14,7 @@
   display: block;
 }
 
-.menu::before,
-.menu > .center {
+.main-menu::before,
+.main-menu > .center {
   margin-bottom: 5px;
 }

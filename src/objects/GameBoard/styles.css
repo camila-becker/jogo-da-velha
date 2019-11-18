@@ -1,4 +1,4 @@
-.board {
+.game-board {
   border-radius: var(--spacing-radius-small);
   background-color: var(--color-zero);
   box-shadow: 0 3px 6px 0 var(--color-negative-light);

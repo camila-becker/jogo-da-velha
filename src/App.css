@@ -2,12 +2,12 @@
   text-align: center;
 }
 
-.app > .header {
+.app > .main-header {
   width: 90vw;
   margin: 0 auto var(--spacing-big);
 }
 
-.app > .board {
+.app > .game-board {
   width: 90vw;
   height: 90vw;
   display: inline-block;

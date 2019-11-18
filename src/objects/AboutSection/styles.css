@@ -1,4 +1,4 @@
-.about {
+.about-section {
   background-color: var(--color-negative);
   width: 100vw;
   height: 100vh;
@@ -10,10 +10,10 @@
   transition: transform 200ms linear;
 }
 
-.about.-active {
+.about-section.-active {
   transform: translateX(0);
 }
 
-.about > .header-internal {
+.about-section > .header-internal {
   margin-bottom: var(--spacing-very-big);
 }

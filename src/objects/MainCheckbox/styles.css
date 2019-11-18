@@ -1,13 +1,13 @@
-.input {
+.main-input {
   display: none;
 }
 
-.label {
+.main-label {
   display: inline-flex;
   align-items: center;
 }
 
-.label::before {
+.main-label::before {
   content: "";
   border: 3px solid var(--color-first);
   border-radius: 5px;
@@ -19,6 +19,6 @@
   margin-right: 5px;
 }
 
-.input:checked + .label::before {
+.main-input:checked + .main-label::before {
   background-color: var(--color-first);
 }
