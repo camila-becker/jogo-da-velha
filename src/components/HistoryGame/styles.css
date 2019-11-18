@@ -4,4 +4,6 @@
 
 .history-game .tag-game {
   display: inline-block;
+  width: 140px;
+  box-sizing: border-box;
 }
