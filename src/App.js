@@ -3,6 +3,7 @@ import "./App.css";
 
 import LayerDark from "./objects/LayerDark";
 import InputCheckbox from "./objects/InputCheckbox";
+import TagGame from "./objects/TagGame";
 import HeaderGame from "./components/HeaderGame";
 import HashtagGame from "./components/HashtagGame";
 import HeaderInternal from "./components/HeaderInternal";
@@ -16,7 +17,7 @@ const App = () => {
   const handleClickRemove = () => setActiveAbout("");
 
   return (
-    <main className="app">
+    <main id="main" className="app">
       <HeaderGame onClick={handleClickAdd} />
       <HashtagGame />
       <InputCheckbox
@@ -25,6 +26,7 @@ const App = () => {
         value="show"
         content="Mostrar Eventos"
       />
+      <TagGame content="Adicionou O" />
       <LayerDark className={activeAbout}>
         <HeaderInternal onClick={handleClickRemove} />
         <ProfileUser />
