@@ -1,4 +1,6 @@
 import React from "react";
+import "./styles.css";
+
 import TagGame from "../../objects/TagGame";
 
 const HistoryGame = () => (
